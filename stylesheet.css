@@ -1,0 +1,18 @@
+.calendar{border-collapse:collapse;width:100%}
+.calendar caption{padding-bottom:6px;font-size:15px}
+ 
+.calendar th,.calendar td{font-size:15px;border:1px solid #bbb;text-align:center;line-height:30px}
+ 
+.calendar th{background:#ddedf8;}
+.calendar th:first-child{color:#f30;}
+.calendar th:last-child{color:#03c;}
+.calendar td div{text-align:center}
+ 
+.today{background:#fffbcc}
+.saturday{background:#f3f9fd;}
+.sunday{background:#fff5f2;}
+.holiday{background:#fff5f2;}
+ 
+.calendar td a{text-decoration:underline;display:block;width:100%;}
+.calendar td a:hover{background:#fe814d;color:#fff;text-decoration:none}
+.calendar td a:active{background:#f30;}
